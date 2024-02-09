@@ -7,14 +7,17 @@ sejam reconhecidas, elas são definidas no arquivo .jsx, iportadas no arquivo da
 atribuídas ao componente.
 
 Exemplo de arquivo style.jsx:
+
 export const typography = {
     textAlign: "center", mt: "10px", mb: "10px", alignItems: "center", backgroundColor: '#fff', fontSize: '20px'
 }
 
 Exemplo de importação do arquivo de estilização .jsx no arquivo da página:
+
 import { typography } from "./styleLogin";
 
 Exemplo de atribuição do componente de estilização no componente da página:
+
 const Exemplo = () => {
    
     return (
